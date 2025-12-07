@@ -1,4 +1,5 @@
-
+## 🚀 Live Demo
+🔗 **https://code-forces-problem-recommender-two.vercel.app/**  
 # Codeforces Question Recommender — Frontend
 
 A clean, frontend-only (HTML/CSS/JS) UI that calls a Hugging Face Space (Gradio) to generate personalized Codeforces problem recommendations. No server or build step required — just open locally or host as a static site.
