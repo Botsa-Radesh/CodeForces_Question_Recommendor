@@ -29,7 +29,7 @@ A clean, frontend-only (HTML/CSS/JS) UI that calls a Hugging Face Space (Gradio)
 1. Set your Space handle in `app.js`:
 	```js
 	// app.js
-	const SPACE = "Sai-ganesh-09/CF_Problem_Recommender";
+	const SPACE = "/CF_Problem_Recommender";
 	const ENDPOINT = "/recommend";
 	```
 	Prefer a named endpoint in your Space (`api_name="recommend"` on the Gradio click handler).  
@@ -53,11 +53,11 @@ A clean, frontend-only (HTML/CSS/JS) UI that calls a Hugging Face Space (Gradio)
 - **Space target:**  
   Handle form (default in `app.js`):
   ```js
-  const SPACE = "Sai-ganesh-09/CF_Problem_Recommender";
+  const SPACE = "/CF_Problem_Recommender";
   ```
   Full URL form (works the same):
   ```js
-  const SPACE = "https://sai-ganesh-09-cf-problem-recommender.hf.space/";
+  const SPACE = "https://cf-problem-recommender.hf.space/";
   ```
 
 - **Topics:**  
